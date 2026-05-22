@@ -1,0 +1,1 @@
+alert("these are private images screenshots aren't allowed")

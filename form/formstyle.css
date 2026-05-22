@@ -1,0 +1,16 @@
+label {
+        color: darkgoldenrod; /* Or your darkgoldenrod */
+            text-shadow: 1px 1px 2px black, -1px -1px 2px black; /* The "Pop" Factor! 🪄 */
+                font-weight: bold; /* Thicker letters help! */
+                }
+input{
+    color: lightcoral;
+}
+body{
+    background-color:darkgrey;
+}
+div.choice{
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+    font-weight: bold;
+}
