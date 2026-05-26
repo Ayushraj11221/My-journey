@@ -16,7 +16,7 @@
 <input type="text" id="Address" name="address" placeholder="enter the Address">
 </div>  
     <div class="choice"> 
-        Choose your gender: 
+        <label for="gender">choose your gender:</label>  
         <label for="male">male</label>
         <input type="radio" id="male" name="gender">
         <label for="female">female</label>
@@ -25,15 +25,14 @@
     <div>
         <label for="phone_no.">Mobile no. </label>
         <input type="number" id="phone_no." placeholder="ex:8409042888">
-        <label for="Address">Enter your city:</label>
-        <input type="text" id="Address" placeholder="e.g. siwan.."></div>
+    </div>
     <div>
         <label for="code">Enter your city pincode:</label>
-        <input type="number" id="code" placeholder="e.g. 841243">
+        <input type="text" inputmode="numeric" pattern="[o-9]{6}" maxlength="6" minlength="6" id="code" placeholder="e.g. 841243">
     </div>    
     <div>
         <label for="finish">Submit</label>
-        <input type="button" id="finish">
+        <input type="button" id="finish" name="finish" >
     </div>
     </form>
 </body>
