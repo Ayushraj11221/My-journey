@@ -28,12 +28,20 @@
     </div>
     <div>
         <label for="code">Enter your city pincode:</label>
-        <input type="text" inputmode="numeric" pattern="[o-9]{6}" maxlength="6" minlength="6" id="code" placeholder="e.g. 841243">
+        <input type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" minlength="6" id="code" placeholder="e.g. 841243">
     </div>    
     <div>
         <label for="finish">Submit</label>
         <input type="button" id="finish" name="finish" >
     </div>
+    <div>
+        <p>Choose your course:</p><select name="course" id="course">
+            <option value="BCA">Bacheoler Of Computer Applications</option>
+            <option value="BBA">Bacheoler Of buisness Administration</option>
+            <option value="BA">Bacheoler Of Arts</option>
+        </select>
+    </div>
     </form>
+    
 </body>
 </html>
